@@ -1,6 +1,5 @@
 package com.bridgelabz.addressbookapp.controller;
 
-import org.apache.coyote.http11.Http11AprProtocol;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
