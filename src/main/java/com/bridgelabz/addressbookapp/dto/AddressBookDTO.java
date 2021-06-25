@@ -21,9 +21,9 @@ public class AddressBookDTO {
 	@NotEmpty
 	private String state;
 	
-	@NotEmpty
+	@Pattern(regexp = "^[0-9]{6}",message = "Invalid Zip Code !! Please Enter Valid 6 Digit Number")
 	private String zip;
 	
-	@NotEmpty
+	@Pattern(regexp = "^[0-9]{10}",message = "Invalid Phone Number !! Please Enter Valid 10 Digit Number")
 	private String phoneNumber;
 }
