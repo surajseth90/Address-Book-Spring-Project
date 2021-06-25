@@ -1,0 +1,12 @@
+2021-06-25 19:54:54.960  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 4384 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 19:54:54.964 DEBUG 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 19:54:54.965  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : No active profile set, falling back to default profiles: default
+2021-06-25 19:55:00.515  WARN 4384 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 19:55:01.136  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.687 seconds (JVM running for 8.259)
+2021-06-25 19:55:01.142  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in null Enviornment 
+2021-06-25 19:55:24.130  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 4384 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 19:55:24.131 DEBUG 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 19:55:24.132  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : No active profile set, falling back to default profiles: default
+2021-06-25 19:55:25.062  WARN 4384 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 19:55:25.266  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.275 seconds (JVM running for 32.39)
+2021-06-25 19:55:25.272  INFO 4384 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in COMMON Enviornment 
