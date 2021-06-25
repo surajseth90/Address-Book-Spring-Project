@@ -38,8 +38,8 @@ public class AddressBookService implements IAddressBookService {
 	@Override
 	public AddressBookData updateAddressBookData(int id, AddressBookDTO dto) {
 		AddressBookData addressBookData = this.getAddressBookDataByID(id);
-		addressBookData.setName(dto.name);
-		addressBookData.setAddress(dto.address);
+		addressBookData.setName(dto.getName());
+		addressBookData.setAddress(dto.getAddress());
 		addressBookList.set(id - 1, addressBookData);
 		return addressBookData;
 	}

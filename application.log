@@ -1263,3 +1263,62 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct 
 2021-06-25 21:03:27.141  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
 2021-06-25 21:03:27.141  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
 2021-06-25 21:03:51.135  WARN 15472 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.addressbookapp.exception.AddressBookException: Address Book is not Available]
+2021-06-25 21:12:24.303  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 21:12:24.304 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 21:12:24.305  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 21:12:24.921  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 21:12:25.041  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.781 seconds (JVM running for 2531.24)
+2021-06-25 21:12:25.043  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 21:12:25.044  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 21:41:37.569  WARN 15472 --- [HikariPool-21 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Thread starvation or clock leap detected (housekeeper delta=27m12s600ms763µs100ns).
+2021-06-25 22:07:46.402  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:07:46.403 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:07:46.403  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:07:46.721  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:07:46.809  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.433 seconds (JVM running for 5853.013)
+2021-06-25 22:07:46.810  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:07:46.810  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:07:48.352  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:07:48.353 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:07:48.353  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:07:48.636  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:07:48.711  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.382 seconds (JVM running for 5854.916)
+2021-06-25 22:07:48.712  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:07:48.713  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:07:58.394  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:07:58.394 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:07:58.394  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:07:58.683  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:07:58.751  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.382 seconds (JVM running for 5864.956)
+2021-06-25 22:07:58.753  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:07:58.753  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:08:38.155  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:08:38.156 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:08:38.156  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:08:38.443  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:08:38.508  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.377 seconds (JVM running for 5904.713)
+2021-06-25 22:08:38.510  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:08:38.510  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:10:01.177  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:10:01.177 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:10:01.177  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:10:01.468  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:10:01.542  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.389 seconds (JVM running for 5987.747)
+2021-06-25 22:10:01.544  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:10:01.544  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:13:21.584  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:13:21.584 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:13:21.584  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:13:21.890  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:13:21.963  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.403 seconds (JVM running for 6188.167)
+2021-06-25 22:13:21.965  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:13:21.965  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:14:02.834  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on LAPTOP-G9GJ4JUF with PID 15472 (C:\spring\work-space\AddressBookApp\bin\main started by ASUS in C:\spring\work-space\AddressBookApp)
+2021-06-25 22:14:02.835 DEBUG 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:14:02.835  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 22:14:03.116  WARN 15472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:14:03.193  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.382 seconds (JVM running for 6229.397)
+2021-06-25 22:14:03.195  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
+2021-06-25 22:14:03.196  INFO 15472 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-25 22:14:41.214  WARN 15472 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 1, column: 52]]
