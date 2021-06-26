@@ -4,7 +4,6 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
 import lombok.Data;
-import lombok.NonNull;
 
 @Data
 public class AddressBookDTO {

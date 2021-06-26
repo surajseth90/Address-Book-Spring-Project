@@ -7,7 +7,6 @@ import com.bridgelabz.addressbookapp.model.AddressBookData;
 
 public interface IAddressBookService {
 
-
 	List<AddressBookData> getAddressBookData();
 
 	AddressBookData getAddressBookDataByID(int id);
