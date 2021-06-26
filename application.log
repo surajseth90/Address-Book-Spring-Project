@@ -62,3 +62,5 @@ Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.bri
 2021-06-26 11:14:52.802  INFO 10156 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 21.081 seconds (JVM running for 23.138)
 2021-06-26 11:14:52.815  INFO 10156 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book app started in DEV Enviornment 
 2021-06-26 11:14:52.822  INFO 10156 --- [restartedMain] c.b.a.AddressBookAppApplication          : Address Book user is addressbookuser  
+2021-06-26 11:15:50.779  WARN 10156 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('d' (code 100)): was expecting a colon to separate field name and value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('d' (code 100)): was expecting a colon to separate field name and value
+ at [Source: (PushbackInputStream); line: 1, column: 27]]
