@@ -1,6 +1,5 @@
 package com.bridgelabz.addressbookapp.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,41 +15,36 @@ public class AddressBookService implements IAddressBookService {
 
 	@Autowired
 	private AddressBookRepository addressBookRepository;
-	private List<AddressBookData> addressBookList = new ArrayList<>();
 
 	@Override
 	public List<AddressBookData> getAddressBookData() {
-		return addressBookList;
+		return addressBookRepository.findAll();
 	}
 
 	@Override
 	public AddressBookData getAddressBookDataByID(int id) {
-		return addressBookList.stream()
-				.filter(addId->addId.getId()==id)
-				.findFirst()
-				.orElseThrow(()->new AddressBookException("Address Book is not Available"));
+		return addressBookRepository.findById(id)
+				.orElseThrow(() -> new AddressBookException("Address Book with id = " + id + " is not exists !!"));
 	}
 
 	@Override
 	public AddressBookData addAddressBookData(AddressBookDTO dto) {
 		AddressBookData addressBookData = null;
 		addressBookData = new AddressBookData(dto);
-		addressBookList.add(addressBookData);
-		return addressBookRepository.save(addressBookData) ;
+		return addressBookRepository.save(addressBookData);
 	}
 
 	@Override
 	public AddressBookData updateAddressBookData(int id, AddressBookDTO dto) {
 		AddressBookData addressBookData = this.getAddressBookDataByID(id);
-		addressBookData.setName(dto.getName());
-		addressBookData.setAddress(dto.getAddress());
-		addressBookList.set(id - 1, addressBookData);
-		return addressBookData;
+		addressBookData.updateAddressBookData(dto);
+		return addressBookRepository.save(addressBookData);
 	}
 
 	@Override
 	public void deleteAddressBookData(int id) {
-		addressBookList.remove(id);
+		AddressBookData addressBookData = this.getAddressBookDataByID(id);
+		addressBookRepository.delete(addressBookData);
 	}
 
 }
