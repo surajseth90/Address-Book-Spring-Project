@@ -47,4 +47,11 @@ public class AddressBookService implements IAddressBookService {
 		addressBookRepository.delete(addressBookData);
 	}
 
+	@Override
+	public AddressBookData findNameByStartingString(String s) {
+		AddressBookData result = addressBookRepository.findNameByStartingString(s);
+//		addressBookRepository.findByNameContainin
+		return result;
+	}
+
 }

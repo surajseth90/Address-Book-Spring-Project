@@ -16,5 +16,4 @@ public class AddressBookAppApplication {
 		log.info("Address Book user is {}  ",context.getEnvironment().getProperty("user"));
 
 	}
-
 }

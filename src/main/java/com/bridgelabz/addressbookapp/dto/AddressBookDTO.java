@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class AddressBookDTO {
 
-	@Pattern(regexp = "^[A-Z]{1}[A-za-z/s]{2,}$",message = "Name is Invalid")
+	@Pattern(regexp = "^[A-Z]{1}[a-z\\s]{2,}?$",message = "Name is Invalid")
 	private String name;
 	
 	@NotEmpty
